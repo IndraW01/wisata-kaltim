@@ -1,0 +1,194 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+.scrolling-active{
+    background-color: #94B88D;
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+    transition: 0.2s linear;
+}
+.scrolling-active .container a{
+    color: #313131;
+    font-weight: 500;
+}
+.scrolling-active .container a.navbar-brand{
+    color: #313131;
+    font-weight: 700;
+}
+.scrolling-active .btn-login{
+    border: 1px solid #313131;
+    color: #313131;
+    background: none;
+    border-radius: 3px;
+    transition: 0.2s linear;
+}
+.navbar-brand{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+.navbar-brand span{
+    color:  rgb(255, 99, 9);
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link{
+    margin-right: 40px;
+    font-weight: 400;
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link:hover::after{
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(255, 99, 9);
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 3px;
+    margin-bottom: -8px;
+}
+.btn-login{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: 1px solid white;
+    color: white;
+    background: none;
+    border-radius: 3px;
+    padding: 8px 30px 8px 30px;
+    transition: 0.2s linear;
+}
+.btn-login:hover{
+    background-color: #1D2728;
+    border: 1px solid #1D2728;
+    outline: 0;
+    color: white;
+    margin: 0;
+}
+
+/* jumbotron */
+.jumbotron{
+    background-image: url(gambar/1.jpg);
+    height: 110vh;
+    background-position: center 48%;
+    margin-top: -60px;
+    border-radius: 0;
+}
+.jumbotron .display-4{
+    font-weight: bold;
+    color: white;
+    margin-top: 17%;
+}
+.jumbotron .display-4 span{
+    color: rgb(255, 99, 9);
+}
+.jumbotron p{
+    color: white;
+    font-weight: 400;
+}
+.jumbotron .btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: 2px solid white;
+    color: white;
+    background: none;
+    border-radius: 3px;
+    padding: 8px 30px 8px 30px;
+    transition: 0.2s linear;
+}
+.jumbotron .btn:hover{
+    background-color: #1D2728;
+    border: 2px solid #1D2728;
+    outline: 0;
+    color: white;
+    margin: 0;
+}
+
+
+/* main */
+main{
+    margin-top: 100px;
+}
+
+/* tentang */
+.tentang{
+    margin-top: 70px;
+}
+.isi-tentang{
+    font-size: 32px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(255, 99, 9);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.isi-tentang span{
+    color: rgb(255, 99, 9);
+}
+.tentang-isi p{
+    font-size: 1rem;
+}
+
+/* wisata */
+#wisata{
+    background-color: rgb(198, 235, 201);
+}
+.teks-wisata{
+    font-size: 32px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(255, 99, 9);
+    text-transform: uppercase;
+    width: 50%;
+    padding-bottom: 5px;
+    color: white;
+    padding-top: 70px;
+}
+.teks-wisata span{
+    color: rgb(255, 99, 9);
+}
+.isi-wisata{
+    padding-top: 70px;
+}
+.content-shadow{
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+    background-color: white;
+}
+.content-shadow span{
+    color: rgb(255, 99, 9);
+}
+
+/* footer */
+footer {
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer p{
+    color: #5A9777;
+    font-size: 18px;
+    font-weight: 500;
+}
+footer p span{
+    color: rgb(255, 99, 9);
+}
+
+
+/* login */
+.modal-header,
+.modal-body,
+.modal-footer{
+    background-color: #5A9777;
+}
+.btn-berhasil{
+    margin: auto;
+    background-color: #1D2728;
+    width: 98%;
+}
+.btn-berhasil a{
+    color: white;
+    text-decoration: none;
+}
+.btn-berhasil:hover{
+    color: white;
+}

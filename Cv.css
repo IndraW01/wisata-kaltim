@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #94B88D;
+}
+
+.bayangan{
+    margin: 50px 0;
+    box-shadow: 3px 3px 12px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* kiri */
+.kiri{
+    background-color: #3E424D;
+    height: 120vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* profile */
+.profile{
+    width: 250px;
+    text-align: center;
+}
+/* contact */
+.contact{
+    margin-top: 20px;
+}
+ul li{
+    list-style: none;
+}
+.contact h2{
+    color: white;
+    text-align: center;
+}
+i{
+    margin-left: 20px;
+    font-size: 24px;
+    color: #FFA800;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size:16px;
+    margin-left: 20px;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+/* skill */
+.skill h2{
+    color: white;
+    text-align: center;
+}
+.skill .progress{
+    margin-left: -35px;
+    width: 180%;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.progress h5{
+    font-size: 16px;
+}
+
+
+/* kanan */
+.kanan{
+    background-color: white;
+    padding: 30px;
+}
+/* nama */
+.nama h1:nth-child(1){
+    color: #4C4E56;
+}
+.nama h1:nth-child(2){
+    color: #FFA800;
+    line-height: 20px;
+}
+.nama p{
+    font-size: 18px;
+    line-height: 40px;
+    color: #838384;
+}
+/* about */
+.about h2,
+.riwayat h2{
+    font-weight: 700;
+    margin-top: 40px;
+}
